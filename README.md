@@ -1,103 +1,75 @@
-<p align="center">My Channel</br><b>
-| <a href="https://discord.gg/GCehyym">Discord</a> | <a href="https://youtube.com/@layargeser">YouTube</a> |</b></p>
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# Ubuntu-termux
 
----
-## Ubuntu on Termux Android
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/Ubuntu-termux)
 
-• Install Apps on Android
-- [x] [Termux](https://play.google.com/store/apps/details?id=com.termux)
-- [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Installation
+## Architecture
 
-Copy and paste this command to Termux :
-> pkg update
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
+## Install
 
----
-* Start Ubuntu
-```
-ubuntu
-```
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-* Stop Ubuntu
-```
-exit
+```bash
+git clone https://github.com/Interested-Deving-1896/Ubuntu-termux.git
+cd Ubuntu-termux
 ```
 
-* Remove Ubuntu
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/Ubuntu-termux`](https://github.com/Interested-Deving-1896/Ubuntu-termux) and mirrored through:
+
 ```
-rm -rf ubuntu-fs .ubuntu $PREFIX/bin/ubuntu
-```
-
----
-Basic commands Ubuntu
-> apt update : Update list package.</br>
-> apt upgrade : Upgrade package.</br>
-> apt search (pkg) : Search package.</br>
-> apt install (pkg) : Install package.</br>
-> apt autoremove (pkg) : Delete package.</br>
-> apt -h : Help all commands.
-
----
-## Desktop Environment
-
-In Ubuntu, run this command :
-> apt update
-
-<details></br>
-<summary><b><code>Install Desktop Xfce</code></b></summary>
-
-</details>
-
----
-Feature
-- [x] Fixed Sound
-- [x] Access to Sdcard
-- [x] Fixed Browser Crash
-- [x] Install Applications | [Click Here >](https://github.com/wahasa/Ubuntu/tree/main/Apps)
-
-Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
-
----
-## Remote Desktop
-
-<details></br>
-<summary><b><code>VNC Viewer</code></b></summary>
-
-* Start VNC Server
-
-In Ubuntu, run this command to start :
-```
-vnc-start
+Interested-Deving-1896/Ubuntu-termux  ──►  OpenOS-Project-OSP/Ubuntu-termux  ──►  OpenOS-Project-Ecosystem-OOC/Ubuntu-termux
 ```
 
-* Open Vnc Viewer
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-Add (+) VNC Client to connect, fill with :
+## Contributors
 
-Address
-```
-localhost:1
-```
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-Name
-```
-Ubuntu Desktop
-```
+## Origins
 
-To disconnect VNC Client, click (X) on the right.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-* Stop VNC Server
+## Resources
 
-In Ubuntu, run this command to stop :
-```
-vnc-stop
-```
-</details>
-</br>
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
----
-<p align="center">Good Luck</p>
+## License
 
----
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
